@@ -1,70 +1,109 @@
-# Getting Started with Create React App
+# 💬 ConvoFusion
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A **real-time chat application** built with the **MERN stack** (MongoDB, Express, React, Node.js) that integrates **AI chatbots**, **music streaming (Spotify)**, and **image generation (DALL·E)** for a rich and interactive communication experience.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Features
 
-### `npm start`
+- 🔐 **Authentication:** Login, Register, Password Reset, Google Sign-In  
+- 💭 **Chats:** One-to-one and group messaging with media sharing  
+- 📞 **Calls:** Real-time audio and video calling using WebRTC  
+- 🧑‍💻 **Screen Sharing:** Collaborate or present with shared screens  
+- 🤖 **AI Chatbot:** Powered by OpenAI (ChatGPT)  
+- 🎵 **Music Integration:** Spotify API for music sharing and discovery  
+- 🖼 **Image Generation:** DALL·E API for AI-generated images  
+- 🔔 **Notifications:** Real-time updates for messages and calls  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🧱 Tech Stack
 
-### `npm test`
+| Layer | Technologies |
+|-------|---------------|
+| **Frontend** | React v18, Redux, Material-UI v5 |
+| **Backend** | Node.js, Express.js, Socket.io |
+| **Database** | MongoDB + Mongoose |
+| **APIs/Services** | OpenAI (ChatGPT), DALL·E, Spotify, ZEGOCLOUD WebRTC |
+| **Deployment** | AWS EC2, S3 |
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## ⚙️ Setup Instructions
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/convofusion.git
+   cd convofusion
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. **Install dependencies**
+   ```bash
+   npm install
+   cd client && npm install
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. **Set up environment variables**  
+   Create a `.env` file in the backend directory and include:
+   ```
+   MONGO_URI=your_mongodb_connection_string
+   OPENAI_API_KEY=your_openai_key
+   SPOTIFY_CLIENT_ID=your_spotify_id
+   SPOTIFY_CLIENT_SECRET=your_spotify_secret
+   ZEGOCLOUD_APP_ID=your_zegocloud_app_id
+   ZEGOCLOUD_SERVER_SECRET=your_zegocloud_secret
+   ```
 
-### `npm run eject`
+4. **Run the project**
+   ```bash
+   # Start backend
+   npm run server
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   # Start frontend
+   cd client
+   npm start
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🖼 Screenshots
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![Screenshot 1](./screenshots/1.jpg)  
+![Screenshot 2](./screenshots/2.jpg)  
+![Screenshot 3](./screenshots/3.jpg)  
+![Screenshot 4](./screenshots/4.jpg)  
+![Screenshot 5](./screenshots/5.png)  
+![Screenshot 6](./screenshots/6.jpg)  
+![Screenshot 7](./screenshots/7.jpg)  
+![Screenshot 8](./screenshots/8.jpg)  
+![Screenshot 9](./screenshots/9.png)  
+![Screenshot 10](./screenshots/10.jpg)  
+![Screenshot 11](./screenshots/11.jpg)  
+![Screenshot 12](./screenshots/12.jpg)
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 📘 Project Overview
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+ConvoFusion is designed to merge the power of **real-time communication** with **AI-driven interactions** and **music integration**.  
+The app redefines traditional messaging by allowing users to **chat, stream, create, and connect—all in one place.**
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 👨‍💻 Team
 
-### Analyzing the Bundle Size
+- **Sihan Shaikh**  
+- **Shreyash Devali**  
+- **Devarsh Naik**  
+- **Abhishek Johnson**  
+- **Asher Pereira**  
+- **Vedang Parab**  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Guided by **Mrs. Jyoti Kankonkar**, Assistant Professor, Computer Science  
+**Government College of Arts, Science & Commerce, Quepem – Goa**
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 📜 License
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+MIT License © 2025 ConvoFusion Team
