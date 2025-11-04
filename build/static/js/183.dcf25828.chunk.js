@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkchat=self.webpackChunkchat||[]).push([[183],{94183:(e,a,c)=>{c.r(a),c.d(a,{default:()=>t});c(9950);var s=c(44414);const t=()=>(0,s.jsx)(s.Fragment,{children:"404"})}}]);

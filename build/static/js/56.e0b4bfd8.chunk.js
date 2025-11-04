@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkchat=self.webpackChunkchat||[]).push([[56],{36056:(e,t,a)=>{a.r(t),a.d(t,{default:()=>c});var r=a(9950);const c=function(e){var t=e.url;return(0,e.renderWrap)(r.createElement("embed",{src:t,type:"application/pdf",style:{width:"100%",minHeight:600},className:"react-embed--pdf"}))}}}]);
